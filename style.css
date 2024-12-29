@@ -1,0 +1,217 @@
+html {
+    /*font-size: 10px; */
+    /* 10px/16px = 0.625 *100 = 62.5%*/
+    font-size: 62.5%;
+ }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: sans-serif;
+    line-height: 1;
+    font-weight: 400;
+    color: rgb(39, 9, 9);
+    position: relative;
+    height: 100vh;
+    
+    
+}
+
+
+.main-nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+
+
+    
+    
+}
+.gender{
+    padding-left: 2rem;
+}
+.main-link{
+    display:flex;
+    justify-content: space-around;
+    gap: 2.0rem;
+}
+.main-nav p{
+    font-weight: 400;
+    font-size: 1.5rem;
+
+}
+li a{
+    text-decoration: none;
+    color: rgb(39, 9, 9);
+    
+}
+li{
+    list-style-type: none;
+}
+.option{
+    padding-right: 2.5rem;
+}
+#sales{
+    background-color: brown;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 5.0rem;
+    text-align: center;
+}
+#sales p{
+    padding-top:4rem;
+    font-size: 1.5rem;
+    font-style: italic;
+}
+.season h1{
+    padding-bottom: 1rem;
+    font-size: 2rem;
+}
+.season span{
+    display: inline-block;
+    font-weight: 700;
+}
+.btn-btn{
+    display: inline-block;
+    margin-bottom: 4rem;
+    border: none;
+    background-color:brown;
+    color: #fff;
+    font-size: 1rem;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 3px;
+}
+.m-wear{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+}
+.m-wear h2{
+    font-size: 3rem;
+    font-weight: 700;
+    padding-bottom: 2rem;
+}
+.m-wear p{
+    display: flex;
+    font-size: 1.4rem;
+    gap:5px;
+    margin-bottom: 4rem;
+    
+}
+p span{
+    border-bottom: 1px solid gray;
+}
+.grid-container{
+    margin: 0 2%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+
+}
+.asset{
+    display:flex;
+    flex-direction: column;
+    gap: 2rem;
+    position: relative;
+    
+
+}
+.asset img{
+    height: 200px;
+    width: 200px;
+    background-color:black;
+    border-radius: 5px;
+    display: inline-block;
+    
+    
+
+}
+.asset h3{
+    background-color: brown;
+    display:inline;
+    color: #fff;
+    padding: 0 2px;
+    position: absolute;
+    top: -5%;
+}
+  .asset p{
+     font-size: 1.5rem;
+     
+  }  
+ .asset p span{
+    padding-left: 20px;
+ }
+ p span.strike{
+    text-decoration: line-through;
+
+ }
+ .seasonal-sale{
+    margin-top: 3rem;
+    padding-left: 2rem;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+ }
+ .seasonal-sale h2{
+    font-size: 3rem;;
+
+ }
+ .seasonal-sale p{
+    font-size: 1.3rem;
+
+ }
+ .seasonal-sale .bottom{
+    padding-bottom: 5rem;;
+ }
+ .grid-container div p{
+    font-size: 1.3rem;
+    font-weight: 300;
+    padding-bottom: 4rem;
+ }
+ .list-container{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+ }
+ footer p{
+    font-size: 3rem;
+    margin: 3rem 0;
+    text-align: center;
+ }
+ .footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 5%;
+    font-size: 1.5rem;
+ }
+ span i{
+    padding-left: 5px;
+ }
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
